@@ -1,0 +1,16 @@
+length = int(input("집의 한변의 길이를 설정해주세요: "))
+import turtle
+t = turtle.Turtle()
+
+t.right(90)
+t.forward(length)
+t.left(90)
+t.forward(length)
+t.left(90)
+t.forward(length)
+t.left(90)
+t.forward(length)
+t.right(120)
+t.forward(length)
+t.right(120)
+t.forward(length)
